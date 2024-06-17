@@ -1004,7 +1004,7 @@ body {
   width: 100%;
   max-width: 500px;
   margin-bottom: 15px;
-  max-height: 400px;
+  height: 300px;
 }
 .about-link {
   display: block;
@@ -1018,6 +1018,12 @@ body {
 }
 .about-wrapper {
   margin-bottom: 60px;
+}
+.about-info {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .swiper-pagination-bullet-active {

@@ -1000,6 +1000,7 @@ body {
   width: 100%;
   max-width: 500px;
   margin-bottom: 15px;
+  max-height: 400px;
 }
 .about-link {
   display: block;
@@ -1009,6 +1010,7 @@ body {
 .about-link:hover {
   transform: scale(1.2);
   color: #24332a;
+  text-decoration: underline;
 }
 .about-wrapper {
   margin-bottom: 60px;

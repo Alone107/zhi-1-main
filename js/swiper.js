@@ -211,3 +211,11 @@ tl7
     y: 100,
     opacity: 0,
   });
+
+let tl8 = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+
+tl8.from(".about-link", {
+  duration: 1,
+  opacity: 0,
+  y: 20,
+});

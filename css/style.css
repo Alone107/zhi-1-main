@@ -636,6 +636,10 @@ body {
   margin-top: 80px;
   color: #3e5a4a;
   font-size: 2.34rem;
+  transition: all 0.5s;
+}
+.zhiviesteni-team-tel:hover {
+  text-decoration: underline;
 }
 @media (max-width: 950px) {
   .zhiviesteni-team-tel {

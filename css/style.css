@@ -994,6 +994,18 @@ body {
   padding-top: 60px;
   margin-left: 80px;
 }
+@media (max-width: 600px) {
+  .about-title {
+    margin-left: 0px;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .about-title {
+    font-size: 2rem;
+  }
+}
 .about-block {
   max-width: 500px;
   display: flex;
@@ -1032,6 +1044,19 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+@media (max-width: 1200px) {
+  .about-info {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+}
+.about-item {
+  justify-self: center;
+}
 
 .swiper-pagination-bullet-active {
   background-color: #3e5a4a;
@@ -1039,6 +1064,7 @@ body {
 
 .project {
   background-color: #0c4b40;
+  padding-bottom: 100px;
 }
 .project-title {
   font-family: "Georgia", sans-serif;
@@ -1047,5 +1073,32 @@ body {
   color: #e8e5db;
   margin-left: 80px;
   padding-top: 60px;
-  padding-bottom: 200px;
+  margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+  .project-title {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .project-title {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 450px) {
+  .project-title {
+    font-size: 2rem;
+  }
+}
+.project-text {
+  margin-left: 80px;
+  color: #e8e5db;
+  font-size: 1.5rem;
+}
+@media (max-width: 750px) {
+  .project-text {
+    margin-left: 0px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

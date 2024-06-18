@@ -819,6 +819,14 @@ body {
     text-transform: uppercase;
     padding-top: 60px;
     margin-left: 80px;
+    @media (max-width: 600px) {
+      margin-left: 0px;
+      font-size: 3rem;
+      text-align: center;
+    }
+    @media (max-width: 400px) {
+      font-size: 2rem;
+    }
   }
   &-block {
     max-width: 500px;
@@ -857,6 +865,16 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &-item {
+    justify-self: center;
   }
 }
 
@@ -868,6 +886,7 @@ body {
 
 .project {
   background-color: #0c4b40;
+  padding-bottom: 100px;
   &-title {
     font-family: "Georgia", sans-serif;
     font-weight: 400;
@@ -875,6 +894,25 @@ body {
     color: #e8e5db;
     margin-left: 80px;
     padding-top: 60px;
-    padding-bottom: 200px;
+    margin-bottom: 30px;
+    @media (max-width: 750px) {
+      margin-left: 0px;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 450px) {
+      font-size: 2rem;
+    }
+  }
+  &-text {
+    margin-left: 80px;
+    color: #e8e5db;
+    font-size: 1.5rem;
+    @media (max-width: 750px) {
+      margin-left: 0px;
+      text-align: center;
+    }
   }
 }

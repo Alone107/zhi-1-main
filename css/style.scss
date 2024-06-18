@@ -187,9 +187,11 @@ body {
   }
 }
 
+// -----------------------About-----------------------------------
+
 .zhiviesteni-about {
   &-bg {
-    background: url(../images/zhiviesteni/bg-case-2.png);
+    background: url(../images/zhiviesteni/bg-case-2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -306,8 +308,10 @@ body {
   }
 }
 
+// ---------------------------Project-----------------------------------
+
 .zhiviesteni-project {
-  background-image: url(../images/zhiviesteni/bg-case-3.png);
+  background-image: url(../images/zhiviesteni/bg-case-3.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto;

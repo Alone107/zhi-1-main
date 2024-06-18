@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: "Pragmatica", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 400;
   background-color: #e7e5da;
 }
@@ -981,6 +981,9 @@ body {
   z-index: 50;
 }
 
+.about {
+  padding-bottom: 60px;
+}
 .about-title {
   font-family: "Georgia", sans-serif;
   font-weight: 400;
